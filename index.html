@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="StudyHub - a proposed academic resource platform connecting students with lecturer-recommended study materials." />
+  <title>StudyHub | Study With Confidence</title>
+  <link rel="stylesheet" href="style.css" />
+
+  
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">S</span>
+        StudyHub
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Academic resources, simplified</span>
+
+          <h1>Find the right resources. <span style="color:var(--primary)">Study with confidence.</span></h1>
+
+          <p>
+            StudyHub is a proposed centralized academic resource platform that helps
+            students discover lecturer-recommended books, lecture slides, past papers,
+            and other relevant study materials in one place.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#resources" class="btn btn-primary">Explore Resources →</a>
+            <a href="#how-it-works" class="btn btn-outline">How It Works</a>
+          </div>
+
+          <div class="hero-note">
+            <span>✓</span>
+            Resources can be clearly identified as lecturer-recommended or lecturer-provided.
+          </div>
+        </div>
+
+        <!-- Dashboard visual -->
+        <div class="dashboard">
+          <div class="dashboard-top">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <div class="profile">👤</div>
+          </div>
+
+          <div class="dashboard-body">
+            <div class="course-head">
+              <div>
+                <small>Current Course</small>
+                <h3>BSE2201 — Software Engineering</h3>
+              </div>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+
+            <div class="resource-preview">
+              <div class="preview-card">
+                <div class="resource-icon">📘</div>
+                <div>
+                  <strong>Software Engineering Textbook</strong>
+                  <small>Recommended by Lecturer</small>
+                </div>
+              </div>
+
+              <div class="preview-card">
+                <div class="resource-icon">📄</div>
+                <div>
+                  <strong>Lecture 05 — Requirements</strong>
+                  <small>Lecturer Material</small>
+                </div>
+              </div>
+
+              <div class="preview-card">
+                <div class="resource-icon">📝</div>
+                <div>
+                  <strong>2025 Examination Paper</strong>
+                  <small>Past Paper</small>
+                </div>
+              </div>
+
+              <div class="preview-card">
+                <div class="resource-icon">🔗</div>
+                <div>
+                  <strong>Recommended Online Resource</strong>
+                  <small>External Resource</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="section problem" id="problem">
+      <div class="container problem-grid">
+        <div class="problem-copy">
+          <span class="eyebrow">The problem</span>
+          <h2>Academic resources are everywhere — except where students need them.</h2>
+          <p>
+            Students may have to search through WhatsApp groups, emails, shared drives,
+            classmates, and different websites to find material for a course.
+          </p>
+
+          <div class="scattered">
+            <div class="source"><strong>💬 WhatsApp</strong><span>Scattered class resources</span></div>
+            <div class="source"><strong>☁️ Shared Drives</strong><span>Hard to organize</span></div>
+            <div class="source"><strong>📧 Email</strong><span>Old messages get lost</span></div>
+            <div class="source"><strong>🌐 Websites</strong><span>Not always course-specific</span></div>
+          </div>
+        </div>
+
+        <div class="problem-card">
+          <h3>Students need a trusted starting point.</h3>
+          <p>
+            The proposed solution brings course resources together and makes it easier
+            to identify materials that have been provided or recommended by lecturers.
+          </p>
+          <br />
+          <a href="#solution" class="btn btn-primary">See Our Solution →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="section" id="solution">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Our solution</span>
+          <h2>One place for course resources.</h2>
+          <p>
+            StudyHub is designed around courses, making relevant resources easier to
+            discover, organize, and understand.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🎓</div>
+            <h3>Course-Centered</h3>
+            <p>Resources are organized around courses so students can focus on what they are studying.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">✓</div>
+            <h3>Lecturer Validation</h3>
+            <p>Resources can carry a clear lecturer-recommended or lecturer-provided label.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🗂️</div>
+            <h3>Organized Materials</h3>
+            <p>Books, slides, past papers, tutorials, and other resources can be grouped by type.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Features</span>
+          <h2>Everything students need to study smarter.</h2>
+          <p>Designed to reduce the time students spend searching and increase the time they spend learning.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">📚</div>
+            <h3>Recommended Books</h3>
+            <p>Lecturers can recommend textbooks and additional reading materials for their courses.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">📄</div>
+            <h3>Lecturer Slides</h3>
+            <p>Students can find lecture slides and notes shared by their course lecturers.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">📝</div>
+            <h3>Past Papers</h3>
+            <p>Previous examination papers can be organized by course and academic period.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">✓</div>
+            <h3>Verified Resources</h3>
+            <p>Clear labels help students distinguish lecturer-provided or lecturer-recommended material.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🔎</div>
+            <h3>Easy Search</h3>
+            <p>Students can search and filter resources by course, keyword, and resource type.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">🔖</div>
+            <h3>Save Resources</h3>
+            <p>Students can save useful resources for quick access during their study sessions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCE DEMO -->
+    <section class="section resource-section" id="resources">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Interactive demo</span>
+          <h2>Explore sample resources.</h2>
+          <p>This demonstration shows how students could browse materials in the proposed system.</p>
+        </div>
+
+        <div class="resource-tools">
+          <input
+            type="search"
+            class="search-box"
+            id="searchInput"
+            placeholder="Search resources..."
+            aria-label="Search resources"
+          />
+
+          <select class="filter" id="typeFilter" aria-label="Filter resources">
+            <option value="all">All types</option>
+            <option value="Book">Books</option>
+            <option value="Slides">Slides</option>
+            <option value="Past Paper">Past Papers</option>
+            <option value="External">External</option>
+          </select>
+        </div>
+
+        <div class="resource-grid" id="resourceGrid">
+
+          <article class="resource-card" data-type="Book" data-search="software engineering textbook bse2201">
+            <div class="resource-card-top">
+              <span class="resource-type">BOOK</span>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+            <h3>Software Engineering Textbook</h3>
+            <p>A recommended textbook for understanding software engineering concepts.</p>
+            <div class="lecturer">Recommended by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="Software Engineering Textbook">View</button>
+            </div>
+          </article>
+
+          <article class="resource-card" data-type="Slides" data-search="requirements engineering lecture slides bse2201">
+            <div class="resource-card-top">
+              <span class="resource-type">SLIDES</span>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+            <h3>Requirements Engineering</h3>
+            <p>Sample lecture slides covering requirements engineering concepts.</p>
+            <div class="lecturer">Provided by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="Requirements Engineering Slides">View</button>
+            </div>
+          </article>
+
+          <article class="resource-card" data-type="Past Paper" data-search="software engineering 2025 examination past paper bse2201">
+            <div class="resource-card-top">
+              <span class="resource-type">PAST PAPER</span>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+            <h3>2025 Examination Paper</h3>
+            <p>A sample past paper organized under the course resource collection.</p>
+            <div class="lecturer">Shared by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="2025 Examination Paper">View</button>
+            </div>
+          </article>
+
+          <article class="resource-card" data-type="External" data-search="software engineering online external resource">
+            <div class="resource-card-top">
+              <span class="resource-type">EXTERNAL</span>
+              <span>🔗</span>
+            </div>
+            <h3>Recommended Online Resource</h3>
+            <p>An example of an external learning resource recommended for students.</p>
+            <div class="lecturer">Recommended by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="Recommended Online Resource">View</button>
+            </div>
+          </article>
+
+          <article class="resource-card" data-type="Slides" data-search="software testing lecture slides bse2201">
+            <div class="resource-card-top">
+              <span class="resource-type">SLIDES</span>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+            <h3>Software Testing</h3>
+            <p>Sample lecturer material for a software testing topic.</p>
+            <div class="lecturer">Provided by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="Software Testing Slides">View</button>
+            </div>
+          </article>
+
+          <article class="resource-card" data-type="Book" data-search="software architecture book bse2201">
+            <div class="resource-card-top">
+              <span class="resource-type">BOOK</span>
+              <span class="verified-label">✓ VERIFIED</span>
+            </div>
+            <h3>Software Architecture Guide</h3>
+            <p>An example of a recommended additional reading resource.</p>
+            <div class="lecturer">Recommended by <b>Course Lecturer</b></div>
+            <div class="resource-actions">
+              <small>BSE2201</small>
+              <button class="btn btn-outline view-resource" data-title="Software Architecture Guide">View</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="empty-state" id="emptyState">
+          No matching resources found. Try another search or filter.
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">How it works</span>
+          <h2>Simple for students. Useful for lecturers.</h2>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">01</div>
+            <h3>Select Your Course</h3>
+            <p>Students choose the course they are currently studying.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">02</div>
+            <h3>Explore Resources</h3>
+            <p>Browse books, slides, past papers and recommended resources.</p>
+          </div>
+
+          <div class="step">
+            <div class="step-number">03</div>
+            <h3>Study With Confidence</h3>
+            <p>Use organized resources with clear lecturer-recommendation labels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="section benefits">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Expected benefits</span>
+          <h2>Better access. Better organization. Better study.</h2>
+          <p style="color:#cbd5e1">
+            The proposed system is intended to make academic resources easier to discover and use.
+          </p>
+        </div>
+
+        <div class="benefit-grid">
+          <div class="benefit">
+            <strong>⏱ Save Time</strong>
+            <p>Reduce the time students spend searching across multiple platforms.</p>
+          </div>
+          <div class="benefit">
+            <strong>✓ Build Trust</strong>
+            <p>Make lecturer recommendations easier to identify.</p>
+          </div>
+          <div class="benefit">
+            <strong>🗂 Stay Organized</strong>
+            <p>Keep course resources grouped in a logical structure.</p>
+          </div>
+          <div class="benefit">
+            <strong>🎓 Support Learning</strong>
+            <p>Give students a convenient starting point for independent study.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section team" id="team">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Our team</span>
+          <h2>Meet the people behind StudyHub.</h2>
+          <p>Replace the sample details below with your actual 10 group members and GitHub profiles.</p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card"><div class="avatar">01</div><h3>Member One</h3><p>Team Leader</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">02</div><h3>Member Two</h3><p>Frontend Developer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">03</div><h3>Member Three</h3><p>UI Designer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">04</div><h3>Member Four</h3><p>Frontend Developer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">05</div><h3>Member Five</h3><p>Content Lead</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">06</div><h3>Member Six</h3><p>Frontend Developer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">07</div><h3>Member Seven</h3><p>UI Designer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">08</div><h3>Member Eight</h3><p>Frontend Developer</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">09</div><h3>Member Nine</h3><p>Testing & QA</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+          <article class="team-card"><div class="avatar">10</div><h3>Member Ten</h3><p>Documentation</p><a class="github" href="#" onclick="return false;">GitHub ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">Get in touch</span>
+          <h2>Have a question about StudyHub?</h2>
+          <p>
+            This contact form is a front-end demonstration for the landing page.
+            Connect it to your preferred email/backend service if your project requires real submissions.
+          </p>
+
+          <div class="contact-points">
+            <div class="contact-point">
+              <div class="contact-point-icon">✉️</div>
+              <div><small>Email</small><strong>yourteam@example.com</strong></div>
+            </div>
+            <div class="contact-point">
+              <div class="contact-point-icon">📍</div>
+              <div><small>Project</small><strong>Software Engineering Foundations</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Enter your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input class="form-control" id="email" type="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" placeholder="Write your message..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Message →</button>
+
+          <div class="form-message" id="formMessage">
+            ✓ Message submitted successfully for this demo.
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <span class="footer-brand">StudyHub</span>
+        <span> — Find the right resources. Study with confidence.</span>
+      </div>
+      <div>© 2026 StudyHub Project</div>
+    </div>
+  </footer>
+
+  <!-- RESOURCE MODAL -->
+  <div class="modal" id="resourceModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal" aria-label="Close">×</button>
+      <span class="eyebrow">Resource Preview</span>
+      <h2 id="modalTitle">Resource</h2>
+      <p>
+        This is a demonstration of how a student could open a resource from the
+        proposed StudyHub platform. Connect the button to the actual resource
+        location when the full system is implemented.
+      </p>
+      <span class="verified-label">✓ Lecturer Recommended / Provided</span>
+      <br /><br />
+      <button class="btn btn-primary" id="modalDone">Close Preview</button>
+    </div>
+  </div>
+
+  <script>
+    // Mobile navigation
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+      menuBtn.textContent = navLinks.classList.contains("open") ? "✕" : "☰";
+    });
+
+    // Close mobile menu after selecting a link
+    document.querySelectorAll("#navLinks a").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuBtn.textContent = "☰";
+      });
+    });
+
+    // Resource search and filter
+    const searchInput = document.getElementById("searchInput");
+    const typeFilter = document.getElementById("typeFilter");
+    const resourceCards = [...document.querySelectorAll(".resource-card")];
+    const emptyState = document.getElementById("emptyState");
+
+    function filterResources() {
+      const query = searchInput.value.toLowerCase().trim();
+      const type = typeFilter.value;
+      let visible = 0;
+
+      resourceCards.forEach(card => {
+        const text = card.dataset.search.toLowerCase();
+        const cardType = card.dataset.type;
+
+        const matchesSearch = text.includes(query);
+        const matchesType = type === "all" || cardType === type;
+
+        if (matchesSearch && matchesType) {
+          card.style.display = "";
+          visible++;
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      emptyState.style.display = visible === 0 ? "block" : "none";
+    }
+
+    searchInput.addEventListener("input", filterResources);
+    typeFilter.addEventListener("change", filterResources);
+
+    // Resource preview modal
+    const modal = document.getElementById("resourceModal");
+    const modalTitle = document.getElementById("modalTitle");
+    const closeModal = document.getElementById("closeModal");
+    const modalDone = document.getElementById("modalDone");
+
+    document.querySelectorAll(".view-resource").forEach(button => {
+      button.addEventListener("click", () => {
+        modalTitle.textContent = button.dataset.title;
+        modal.classList.add("active");
+        modal.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    function hideModal() {
+      modal.classList.remove("active");
+      modal.setAttribute("aria-hidden", "true");
+    }
+
+    closeModal.addEventListener("click", hideModal);
+    modalDone.addEventListener("click", hideModal);
+
+    modal.addEventListener("click", event => {
+      if (event.target === modal) hideModal();
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") hideModal();
+    });
+
+    // Contact form demo
+    const contactForm = document.getElementById("contactForm");
+    const formMessage = document.getElementById("formMessage");
+
+    contactForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      if (!contactForm.checkValidity()) {
+        contactForm.reportValidity();
+        return;
+      }
+
+      formMessage.style.display = "block";
+      contactForm.reset();
+
+      setTimeout(() => {
+        formMessage.style.display = "none";
+      }, 5000);
+    });
+  </script>
+
+</body>
+</html>
